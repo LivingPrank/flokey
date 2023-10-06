@@ -1,0 +1,31 @@
+Pre-requisites: 
+1) run 'pip install win32com.client' and maybe 'pip install shutil' if it's already not there.
+2) mysql needs to be setup already and create a database for the output.
+
+Initialization:
+3) Enter mysql username, password, above database name and the output folder path (eg: Raunak, pass, a, C:\Users\Desktop)
+
+Working:
+
+4) click on Manage data:
+5) click on 'add_data': choose some files you want to organize and click on 'copy path' button in file explorer top left and paste this path in add_data.
+6) click on 'view links': if you want to see which ones you've added
+
+7) click Manage tags
+8) click on create_tag to create some tags (ie folder names in the output) (eg: inorganic, organic, eleventh, twelveth)
+
+9) click on Manage groups
+10) click on 'create groups' to create a grouping of tags (eg: 'topic' (for inorg, org tags above), 'grade' )
+11) click on view groups to see the ones you've added (in order)
+
+11) click on Manage tags
+12) click on 'add tag to group' and fill. (eg: tagname: inorganic groupname: topic, tagname: eleventh groupname:grade)
+13) click on 'add tag to data' and copy paste link from 'view links' and tick the boxes to add the tag to that link.
+
+14) click on Run: a folder called 'output' should be created
+15) click on Filter: enter tags in list format (eg: ['inorganic', 'organic']), the output folder should update to include only the filtered data
+
+16) click on Manage groups
+17) click on group order and input the names of two groups, their order will be swapped (ie: output/eleventh/inorganic becomes output/inorganic/eleventh)
+18) click on view groups to see the order change
+19) click on Run
